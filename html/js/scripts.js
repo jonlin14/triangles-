@@ -25,6 +25,8 @@ var triangleCheck = function(input1, input2, input3) {
             return 'isoceles triangle';
         }
     }
+};
 
-
+$(document).ready(function() {
+    $('form#')
 };

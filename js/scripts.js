@@ -19,6 +19,10 @@ var triangleCheck = function(input1, input2, input3) {
         {
             return 'Isoceles Triangle';
         }
+        else if (input1 === input3)
+        {
+            return 'Isoceles Triangle';
+        }
         else
         {
             return 'Scalene Triangle';

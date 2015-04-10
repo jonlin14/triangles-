@@ -1,5 +1,11 @@
 var triangleCheck = function(input1, input2, input3) {
-    if ((input1) && (input2) && (input3))
+    var half_Total = ((input1 + input2 + input3) / 2);
+
+    if ((input1 > half_Total) || (input2 > half_Total) || (input3 > half_Total))
+    {
+        return "Not a Triangle";
+    }
+    else
     {
         if ((input1 === input2) && (input1 === input3))
         {
